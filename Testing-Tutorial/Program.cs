@@ -7,6 +7,7 @@ namespace TestingTutorial
         public static void Main(string[] args)
         {
             Console.WriteLine(Hello.HelloMessage());
+            Console.ReadLine();
         }
     }
 }
