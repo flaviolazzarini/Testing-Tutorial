@@ -1,4 +1,4 @@
-﻿using Entities;
+﻿using D365.Client.Models;
 using Microsoft.Xrm.Sdk;
 using Microsoft.Xrm.Sdk.Client;
 using System;
@@ -46,7 +46,7 @@ namespace Plugins
                                                       .FirstOrDefault();
 
                 var description = $"Contact {ChildContacts.Count} for {parentAccountName}";
-                var updatedContact = new Contact { Id = Contact.Id, Description = description };
+                var updatedContact = new D365.Client.Models.Contact { Id = Contact.Id, Description = description };
 
                 Service.Update(updatedContact);
             }
