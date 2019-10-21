@@ -8,6 +8,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SentenceUtilsTest", "UnitTe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{EA2C0420-9BF6-41DE-A4A1-100679AF0537}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugins", "Plugins\Plugins.csproj", "{BA78C825-781A-4C33-A48A-930B82E5C8FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrmUnitTest", "CrmUnitTest\CrmUnitTest.csproj", "{ACEF1C81-CB52-4528-8906-86FC01D2330F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|anycpu = Debug|anycpu
@@ -26,6 +30,14 @@ Global
 		{EA2C0420-9BF6-41DE-A4A1-100679AF0537}.Debug|anycpu.Build.0 = Debug|Any CPU
 		{EA2C0420-9BF6-41DE-A4A1-100679AF0537}.Release|anycpu.ActiveCfg = Release|Any CPU
 		{EA2C0420-9BF6-41DE-A4A1-100679AF0537}.Release|anycpu.Build.0 = Release|Any CPU
+		{BA78C825-781A-4C33-A48A-930B82E5C8FE}.Debug|anycpu.ActiveCfg = Debug|Any CPU
+		{BA78C825-781A-4C33-A48A-930B82E5C8FE}.Debug|anycpu.Build.0 = Debug|Any CPU
+		{BA78C825-781A-4C33-A48A-930B82E5C8FE}.Release|anycpu.ActiveCfg = Release|Any CPU
+		{BA78C825-781A-4C33-A48A-930B82E5C8FE}.Release|anycpu.Build.0 = Release|Any CPU
+		{ACEF1C81-CB52-4528-8906-86FC01D2330F}.Debug|anycpu.ActiveCfg = Debug|Any CPU
+		{ACEF1C81-CB52-4528-8906-86FC01D2330F}.Debug|anycpu.Build.0 = Debug|Any CPU
+		{ACEF1C81-CB52-4528-8906-86FC01D2330F}.Release|anycpu.ActiveCfg = Release|Any CPU
+		{ACEF1C81-CB52-4528-8906-86FC01D2330F}.Release|anycpu.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
